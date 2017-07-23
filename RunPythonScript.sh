@@ -1,6 +1,6 @@
 #!/bin/bash
 #$ -N python
-#$ -pe make 8
+#$ -pe make X
 #$ -j y
 #$ -o output.$JOB_ID
 #$ -cwd
